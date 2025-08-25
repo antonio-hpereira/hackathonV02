@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\core_simulation\\eventhub\\simulacaoeventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|solutionrelative:core_simulation\\eventhub\\simulacaoeventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SimulacaoEventProducer.cs",
+              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
+              "RelativeDocumentMoniker": "Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
+              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
+              "RelativeToolTip": "Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T18:39:26.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

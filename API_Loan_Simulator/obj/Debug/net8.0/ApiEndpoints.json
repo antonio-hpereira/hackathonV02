@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "API_Loan_Simulator.Controllers.ListaSimulacoesController",
+    "Method": "ListarSimulacoesPaginadasAsync",
+    "RelativePath": "api/ListaSimulacoes/paginadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "qtdRegistros",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "qtdregistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Loan_Simulator.Controllers.ListaSimulacoesController",
+    "Method": "GetSimulacoesPorProdutoEDiaAsync",
+    "RelativePath": "api/ListaSimulacoes/volume_por_dia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Loan_Simulator.Controllers.LoanSimulatorController",
+    "Method": "CalcularSimulacao",
+    "RelativePath": "api/LoanSimulator/simulacoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "API_Loan_Simulator.Entities.DadosSimulacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Loan_Simulator.Program\u002B\u003C\u003Ec",
+    "Method": "\u003CMain\u003Eb__0_2",
+    "RelativePath": "api/telemetria",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
