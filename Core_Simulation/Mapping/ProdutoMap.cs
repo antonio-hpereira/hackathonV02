@@ -29,9 +29,14 @@
                 .HasColumnType("numeric(10,9)")
                 .IsRequired();
 
+            builder.Property(p => p.NU_MINIMO_MESES)
+               .HasColumnName("NU_MINIMO_MESES")
+               .IsRequired();
+
             builder.Property(p => p.NU_MAXIMO_MESES)
                 .HasColumnName("NU_MAXIMO_MESES")
-                .IsRequired();
+                .IsRequired(false); // Permite nulo
+                
 
             builder.Property(p => p.VR_MINIMO)
                 .HasColumnName("VR_MINIMO")

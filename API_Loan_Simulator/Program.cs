@@ -12,6 +12,8 @@ using API_Loan_Simulator.EventHub.IEventHub;
 using API_Loan_Simulator.Repository.Concrete;
 using API_Loan_Simulator.Repository.IRepository;
 using API_Loan_Simulator.Telemetria;
+using Core_Simulation.Repository.Concrete;
+using Core_Simulation.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -44,6 +46,8 @@ namespace API_Loan_Simulator
             builder.Services.AddScoped<CalculoPriceStrategy>();
             builder.Services.AddScoped<ICalculoParcelasFactory, CalculoParcelasFactory>();
             builder.Services.AddScoped<SimuladorFinanciamentoService>();
+            builder.Services.AddSingleton<ISimulacaoEnvioRepository, SimulacaoEnvioRepositoryEmMemoria>();
+
 
 
 
