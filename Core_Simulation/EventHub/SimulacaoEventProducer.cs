@@ -20,7 +20,6 @@ namespace API_Loan_Simulator.EventHub
             _connectionString = configuration.GetConnectionString("ServiceBus");
             _envioRepository = envioRepository;
         }
-
         public async Task EnviarEventHubSimulacaoAsync(ResultadoFinalSimulacaoViewModel resultado)
         {
             if (await _envioRepository.JaFoiEnviadaAsync(resultado.CO_SIMULACAO_FINAL))

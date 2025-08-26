@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\core_simulation\\repository\\concrete\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|solutionrelative:core_simulation\\repository\\concrete\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\core_simulation\\core_simulator\\simuladorfinanciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|solutionrelative:core_simulation\\core_simulator\\simuladorfinanciamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\core_simulation\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|solutionrelative:core_simulation\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\api_loan_simulator\\controllers\\loansimulatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\controllers\\loansimulatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\core_simulation\\eventhub\\simulacaoeventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|solutionrelative:core_simulation\\eventhub\\simulacaoeventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\api_loan_simulator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\api_loan_simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D38704BD-EE08-47ED-929A-E5F200717F7A}|API_Loan_Simulator\\API_Loan_Simulator.csproj|solutionrelative:api_loan_simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\core_simulation\\repository\\concrete\\simulacaoenviorepositoryemmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|solutionrelative:core_simulation\\repository\\concrete\\simulacaoenviorepositoryemmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|c:\\users\\tonic\\documents\\hackathonvv02\\hackathonv02\\core_simulation\\repository\\irepository\\isimulacaoenviorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C96F69-2A27-4EC1-A98A-E8478487D6EA}|Core_Simulation\\Core_Simulation.csproj|solutionrelative:core_simulation\\repository\\irepository\\isimulacaoenviorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,123 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SimuladorFinanciamento.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "RelativeDocumentMoniker": "Core_Simulation\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "RelativeToolTip": "Core_Simulation\\Core_Simulator\\SimuladorFinanciamento.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAgwC4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T21:24:30.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Entities\\Produto.cs",
-              "RelativeDocumentMoniker": "Core_Simulation\\Entities\\Produto.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Entities\\Produto.cs",
-              "RelativeToolTip": "Core_Simulation\\Entities\\Produto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T20:10:04.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Repository\\Concrete\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "Core_Simulation\\Repository\\Concrete\\ProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Repository\\Concrete\\ProdutoRepository.cs",
-              "RelativeToolTip": "Core_Simulation\\Repository\\Concrete\\ProdutoRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:55:00.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoanSimulatorController.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
-              "RelativeToolTip": "API_Loan_Simulator\\Controllers\\LoanSimulatorController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:35:23.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\API_Loan_Simulator\\Program.cs",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\Program.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\API_Loan_Simulator\\Program.cs",
-              "RelativeToolTip": "API_Loan_Simulator\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:29:31.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SimulacaoEnvioRepositoryEmMemoria.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Repository\\Concrete\\SimulacaoEnvioRepositoryEmMemoria.cs",
-              "RelativeDocumentMoniker": "Core_Simulation\\Repository\\Concrete\\SimulacaoEnvioRepositoryEmMemoria.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Repository\\Concrete\\SimulacaoEnvioRepositoryEmMemoria.cs",
-              "RelativeToolTip": "Core_Simulation\\Repository\\Concrete\\SimulacaoEnvioRepositoryEmMemoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:20:07.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ISimulacaoEnvioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Repository\\IRepository\\ISimulacaoEnvioRepository.cs",
-              "RelativeDocumentMoniker": "Core_Simulation\\Repository\\IRepository\\ISimulacaoEnvioRepository.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\Repository\\IRepository\\ISimulacaoEnvioRepository.cs",
-              "RelativeToolTip": "Core_Simulation\\Repository\\IRepository\\ISimulacaoEnvioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:19:45.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\API_Loan_Simulator\\appsettings.json",
-              "RelativeDocumentMoniker": "API_Loan_Simulator\\appsettings.json",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\API_Loan_Simulator\\appsettings.json",
-              "RelativeToolTip": "API_Loan_Simulator\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-25T18:54:42.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SimulacaoEventProducer.cs",
-              "DocumentMoniker": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
-              "RelativeDocumentMoniker": "Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
-              "ToolTip": "C:\\Users\\Tonic\\Documents\\HACKATHONVV02\\hackathonV02\\Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
-              "RelativeToolTip": "Core_Simulation\\EventHub\\SimulacaoEventProducer.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T18:39:26.405Z",
-              "EditorCaption": ""
             }
           ]
         }

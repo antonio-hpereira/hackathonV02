@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_Loan_Simulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f6c06dab04e38e965af274c7df6b805ded1814b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73d4fab8b655828821e357b21040fd4e7f862436")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_Loan_Simulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_Loan_Simulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
