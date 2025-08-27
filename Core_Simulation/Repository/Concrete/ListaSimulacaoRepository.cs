@@ -22,13 +22,22 @@ namespace API_Loan_Simulator.Repository.Concrete
         int qtdRegistros,
         int qtdregistrosPorPagina
         )
-        {
+        {            
 
-            var simulacoes = _context.Simulacoes
+            int skip = (pagina - 1) * qtdregistrosPorPagina;
+
+            var simulacoes = await _context.Simulacoes
                 .Include(s => s.Parcelas)
-               .ToList();
+                .Skip(skip)
+                .Take(qtdregistrosPorPagina)
+                .ToListAsync();
 
-            var totaisPorSimulacaoETipo = _context.Parcelas
+            int totalPaginas = (int)Math.Ceiling((double)simulacoes.Count() / qtdregistrosPorPagina);
+
+            if (pagina < 1 || pagina > totalPaginas)
+                throw new ArgumentOutOfRangeException("Página inválida.");
+
+            var totaisPorSimulacaoETipo = await _context.Parcelas
             .GroupBy(p => new { p.CO_SIMULACAO, p.NO_TIPO })
             .Select(g => new
             {
@@ -36,99 +45,39 @@ namespace API_Loan_Simulator.Repository.Concrete
                 Tipo = g.Key.NO_TIPO,
                 ValorTotalParcelas = g.Sum(p => p.VR_VALOR_PARCELAS)
             })
-            .ToList();
+            .ToListAsync();
 
+            var registros = new List<ListaSimulacaoViewModel>();                                   
 
+            ListaSimulacoes result = new  ListaSimulacoes();           
 
-           
-            int quantidadeRegistros = _context.Simulacoes.Count();
-            
-            int totalPaginas = (int)Math.Ceiling((double)quantidadeRegistros / qtdregistrosPorPagina);            
-            
-            if (pagina < 1 || pagina > totalPaginas)
-                throw new ArgumentOutOfRangeException("Página inválida.");
-          
-            int skip = (pagina - 1) * qtdregistrosPorPagina;
-
-            ListaSimulacoes result = new  ListaSimulacoes();
-            var tipo = "";
-            List<ListaSimulacaoViewModel> registros = new List<ListaSimulacaoViewModel>();
-              
-                foreach (var v in totaisPorSimulacaoETipo)
-                {                   
-                        result = new ListaSimulacoes
-                        {
-                            NU_PAGINA = pagina,
-                            QT_REGISTRO = qtdRegistros,
-                            QT_REGISTRO_PAGINA = qtdregistrosPorPagina,
-                            LT_REGISTRO = registros
-                        };
-                    foreach (var item in simulacoes)
+                    foreach (var simulacao in simulacoes)
                     {
-                        if (item.CO_SIMULACAO == v.SimulacaoId)
+                        var tipos = totaisPorSimulacaoETipo
+                            .Where(t => t.SimulacaoId == simulacao.CO_SIMULACAO)
+                            .ToList();
+
+                        foreach (var tipo in tipos)
                         {
-                            foreach (var parcela in item.Parcelas)
+                            registros.Add(new ListaSimulacaoViewModel
                             {
-                                if (v.Tipo == "SAC" && tipo == "" && v.SimulacaoId == item.CO_SIMULACAO)
-                                {
-                                    tipo = parcela.NO_TIPO;
-
-                                    var ListaSi = new ListaSimulacaoViewModel
-                                    {
-                                        idSimulacao = item.CO_SIMULACAO,
-                                        tipo = parcela.NO_TIPO,
-                                        valorDesejado = item.VR_VALOR_ENTRADA,
-                                        prazo = item.NU_PARCELAS,
-                                        valorTotalParcelas = v.ValorTotalParcelas
-                                    };
-
-                                    registros.Add(ListaSi);
-
-                                }
-                                if (v.Tipo == "PRICE" && tipo == "" && v.SimulacaoId == item.CO_SIMULACAO)
-                                {
-                                    tipo = parcela.NO_TIPO;
-                                    var ListaSi = new ListaSimulacaoViewModel
-                                    {
-                                        idSimulacao = item.CO_SIMULACAO,
-                                        tipo = parcela.NO_TIPO,
-                                        valorDesejado = item.VR_VALOR_ENTRADA,
-                                        prazo = item.NU_PARCELAS,
-                                        valorTotalParcelas = v.ValorTotalParcelas
-                                    };
-
-                                    registros.Add(ListaSi);
-                                }
-                                tipo = parcela.NO_TIPO;
-                                break;
-
-                            }
-                            foreach (var parc in item.Parcelas)
-                            {
-                                if (v.Tipo != tipo && parc.NO_TIPO != tipo && v.SimulacaoId == item.CO_SIMULACAO)
-                                {
-                                    tipo = "";
-                                    var Lista = new ListaSimulacaoViewModel
-                                    {
-                                        idSimulacao = item.CO_SIMULACAO,
-                                        tipo = parc.NO_TIPO,
-                                        valorDesejado = item.VR_VALOR_ENTRADA,
-                                        prazo = item.NU_PARCELAS,
-                                        valorTotalParcelas = v.ValorTotalParcelas
-                                    };
-                                    registros.Add(Lista);
-                                    break;
-                                }
-
-                            }
-
+                                idSimulacao = simulacao.CO_SIMULACAO,
+                                tipo = tipo.Tipo,
+                                valorDesejado = simulacao.VR_VALOR_ENTRADA,
+                                prazo = simulacao.NU_PARCELAS,
+                                valorTotalParcelas = tipo.ValorTotalParcelas
+                            });
                         }
                     }
-                                            
-               
-                }           
 
-            return  result;
+            return new ListaSimulacoes
+                    {
+                        NU_PAGINA = pagina,
+                        QT_REGISTRO = qtdRegistros,
+                        QT_REGISTRO_PAGINA = qtdregistrosPorPagina,
+                        LT_REGISTRO = registros
+                    };
+                   
 
         }
 
@@ -155,9 +104,9 @@ namespace API_Loan_Simulator.Repository.Concrete
             .ToListAsync();
 
             ListaVolumeSimuladoViewModel lista = new ListaVolumeSimuladoViewModel();
-            List<VolumeProduto> volumeProdutos = new List<VolumeProduto>();
+            List<VolumeProduto> volumeProdutos = new List<VolumeProduto>();            
 
-            lista.dataReferencia = data;            
+            lista.dataReferencia = dataFiltro.ToString("yyyy-MM-dd");            
             foreach (var sim in resultado)
             {
                 if(sim != null)

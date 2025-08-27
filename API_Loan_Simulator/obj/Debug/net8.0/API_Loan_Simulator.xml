@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_Loan_Simulator</name>
+    </assembly>
+    <members>
+        <member name="M:API_Loan_Simulator.Controllers.ListaSimulacoesController.GetSimulacoesPorProdutoEDiaAsync(System.String)">
+            <summary>
+            Inserir a data no formato dd/MM/yyyy.
+            </summary>                
+        </member>
+    </members>
+</doc>

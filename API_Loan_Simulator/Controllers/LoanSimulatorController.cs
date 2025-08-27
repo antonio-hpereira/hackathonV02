@@ -45,8 +45,8 @@ namespace API_Loan_Simulator.Controllers
             if (dados.ValorDesejado <= 0 || dados.Prazo <= 0 )
                 return BadRequest("Parâmetros inválidos para simulação.");
 
-
             var resultados = await _simulador.SimularAsync(dados);
+
             return Ok(resultados);
 
 

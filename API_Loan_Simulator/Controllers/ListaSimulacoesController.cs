@@ -45,7 +45,12 @@ namespace API_Loan_Simulator.Controllers
                 return Ok(resultado);
         }
 
-        [HttpGet("volume_por_dia")]
+
+
+        /// <summary>
+        /// Inserir a data no formato dd/MM/yyyy.
+        /// </summary>                
+        [HttpGet("volume_por_dia")]        
         public async Task<IActionResult> GetSimulacoesPorProdutoEDiaAsync(
         [FromQuery] string data
        )

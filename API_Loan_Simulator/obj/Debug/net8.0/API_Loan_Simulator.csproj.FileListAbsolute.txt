@@ -832,3 +832,5 @@ C:\Users\Tonic\Documents\HACKATHONVV02\hackathonV02\API_Loan_Simulator\obj\Debug
 C:\Users\Tonic\Documents\HACKATHONVV02\hackathonV02\API_Loan_Simulator\obj\Debug\net8.0\API_Loan_Simulator.pdb
 C:\Users\Tonic\Documents\HACKATHONVV02\hackathonV02\API_Loan_Simulator\obj\Debug\net8.0\API_Loan_Simulator.genruntimeconfig.cache
 C:\Users\Tonic\Documents\HACKATHONVV02\hackathonV02\API_Loan_Simulator\obj\Debug\net8.0\ref\API_Loan_Simulator.dll
+C:\Users\Tonic\Documents\HACKATHONVV02\hackathonV02\API_Loan_Simulator\bin\Debug\net8.0\API_Loan_Simulator.xml
+C:\Users\Tonic\Documents\HACKATHONVV02\hackathonV02\API_Loan_Simulator\obj\Debug\net8.0\API_Loan_Simulator.xml

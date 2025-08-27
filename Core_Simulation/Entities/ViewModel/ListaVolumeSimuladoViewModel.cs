@@ -2,6 +2,7 @@
 {
     public class ListaVolumeSimuladoViewModel
     {
+       
         public string dataReferencia { get; set; }
 
         public List<VolumeProduto> simulacoes { get; set; }

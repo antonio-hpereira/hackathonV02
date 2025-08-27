@@ -58,7 +58,13 @@ namespace API_Loan_Simulator
             builder.Services.AddSingleton<TelemetriaStorage>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(
+                options =>
+                {
+                    var xmlFile = "API_Loan_Simulator.xml"; // nome do arquivo gerado pelo <GenerateDocumentationFile>
+                    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                    options.IncludeXmlComments(xmlPath);
+                });
 
             var app = builder.Build();
 

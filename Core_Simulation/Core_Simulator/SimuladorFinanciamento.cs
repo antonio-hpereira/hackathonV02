@@ -52,9 +52,7 @@ namespace API_Loan_Simulator.Core_Simulator
                 throw new ArgumentException("Valor desejado deve ser maior que zero.");
             if (prazoMeses <= 0)
                 throw new ArgumentException("Prazo em meses deve ser maior que zero.");
-            if (prazoMeses > 120)
-                throw new ArgumentException("Prazo em meses não pode ser maior que 120 meses.");
-
+           
             var produto = await _produtoRepository.ObterProdutoParaSimulacaoAsync(valorDesejado, prazoMeses);
 
             if (produto == null)

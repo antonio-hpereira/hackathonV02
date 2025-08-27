@@ -13,8 +13,7 @@ namespace API_Loan_Simulator.Repository.Concrete
         {
             _context = context;
         }
-
-        
+                
         public async Task<Produto?> ObterProdutoParaSimulacaoAsync(decimal valorDesejado, int prazoMeses)
         {
             valorDesejado = Math.Round(valorDesejado, 2);           
